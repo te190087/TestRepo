@@ -1,0 +1,28 @@
+git add ファイル名
+
+ファイルを上げる
+
+git add .
+すべてのファイルをアップロード
+
+git commit -m "初回登録"
+コメントが入る？
+
+---------------------------------
+
+ローカルからGithubにつなげる
+
+
+Git　hubのリポジトリのurlをコピー
+
+git remote add origin さっきのurl
+これでgithubにファイルが入る。
+
+----------------------------------
+
+トークンの作り方
+
+セッティング→ディベロッパーセッティング→New Github App→でトークンを作成できる。
+作成後、トークンのurlが必要。
+
+トークンurl  TestRepoのもの vhttps://github.com/kanonyanai/TestRepo.git
